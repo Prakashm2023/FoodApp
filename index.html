@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food World</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FOOD WORLD</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+           aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <button class="btn p-2 my-lg-0 my-2" onclick="redirect()">Sign In</button>
+        </div>
+       
+    </nav>
+
+  <!-- HOME -->
+
+  <section id="home">
+    <div>
+      <h1>EAT DELICIOUS HEALTHY FOOD</h1>
+    </div>
+     <div class="input-group m-4">
+      <input type="text" class="form-control" placeholder="Email Address">
+      <button class="btn signin" href="#foodmenu">Get Started</button>
+     </div>
+  </section>
+
+  <!--ABOUT-->
+
+  <section id="about">
+
+    <div class="container-fluid">
+         <div class="row">
+          <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2 my-5">
+            <img src="https://keephealthyliving.com/wp-content/uploads/2019/01/healthy-eating-organic-food-vegetables-and-fruits.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2 my-5">
+
+            <h1>ABOUT US</h1>
+            <p>
+              This type of food is based on the use of ingredients that are grown or produced according to production methods that meet several requirements: the use of natural processes and techniques, respect for animal welfare, the use of environmentally friendly methods and the protection of consumer health.<br><br>
+
+              Organic food rejects the use of chemical components (excessively added chemical components) and is characterized by the limitation of the use of additives or their elimination. In this way, animal welfare and respect for biodiversity are promoted, avoiding any type of environmental pollution.<br><br>
+
+              It is not only our genes that influence our health, but also the food we eat on a daily basis. That’s why the way food is produced is important to us, not only for our health, but also to preserve the environment. In this article we explain what organic food is, what characterizes it, how it is produced and why it is better than conventional food.
+            </p>
+          </div>
+
+        </div>
+    </div>
+  </section>
+
+  <!--PRODUCT-->
+
+  <section id="product">
+    <div class="container m-5">
+      <br>
+      <h1 class="text-center my-5">FOOD MENU</h1>
+      
+      <div class="row">
+        
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus_466689-72551.jpg?w=360&t=st=1674915264~exp=1674915864~hmac=d577d28868312ca2b119d922b5a12e41f24418923e4530100e518bc2e1612789" class="img-fluid"class="img-fluid:card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Non-Veg = ($2-$12)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/paneer-butter-masala-cheese-cottage-curry-served-with-rice-laccha-paratha_466689-73715.jpg?w=740&t=st=1674915884~exp=1674916484~hmac=5c958300e16f1244aa80a7cb06e714087e6ceea2382cb03ef863bdd10428be93"class="img-fluid" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Veg = ($2-$7)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/top-view-seafood-appetizers-fish-squid-shrimp-with-sauces-vegetable-salad_141793-4123.jpg?w=740&t=st=1674925389~exp=1674925989~hmac=aa942aa38447fd1c32cab5ac9c3feabaf72188b615566a7540de86c2b54c38e2"class="img-fluid" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Sea Food=($2-$10)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+<br><br>
+      <div class="row">
+        
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/idli-vada-sambhar-also-known-as-idly-medu-wada-sambar_466689-91633.jpg?w=740&t=st=1674926879~exp=1674927479~hmac=94a3e2ca0eff865d553a6b03f8b31c7f8ae0995eb8383de4cf45eb724283b09d"class="img-fluid" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Idli = ($1-$3)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>  
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/premium-photo/masala-dosa-with-chutney-sambar-potato-sabzi-cone-triangle-roll-shap_466689-24021.jpg?w=360"class="img-fluid" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Dosa = ($1-$3)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>  
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://t4.ftcdn.net/jpg/03/22/27/43/240_F_322274314_MEln9YzXVGc35pXYz4hqkFzJzvGMgmvt.jpg" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Parota = ($1-$5)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+<br><br>
+      <div class="row">
+        
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/premium-photo/set-pasta-with-different-sauces-white-tiled-background-spaghetti-farfalle-penne-fusilli-pasta-with-seafood-spinach-carbonara-tomato-sauce-italian-dinner-mediterranean-food-concept_136595-20934.jpg" class="img-fluid"class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Noodles =($2-$7)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table_141793-3998.jpg?w=740&t=st=1674926248~exp=1674926848~hmac=c175e342f2cfdf272f3d9bd253fe418c37a2a0d5376eb5f35e5a2e59609f08b0"class="img-fluid" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Pizza =($2-$10)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/premium-photo/bowl-healthy-fresh-fruit-salad-with-yogurt-healthy-vegan-food-diet-concept_166342-144.jpg?w=740"class="img-fluid" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Salads = ($3-$9)</h5>            
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+<br><br>
+      <div class="row">
+        
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/cake-with-candles-assortment_23-2149023568.jpg?w=740&t=st=1674927731~exp=1674928331~hmac=c3add7e3bd25c920af50b78219f0f4cdaa03d101c996dcf7b0dc669dab6fac1e" class="img-fluid"class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cakes = ($5-$15)</h5>              
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>  
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://t3.ftcdn.net/jpg/01/85/28/86/240_F_185288693_vrlGelaGlrGCmEOGilnIHMf2RCjI1a7n.jpg"class="img-fluid" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Ice Creams = ($1-$5)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>  
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/south-indian-filter-coffee-served-traditional-brass-stainless-steel-cup_466689-92254.jpg?w=740&t=st=1674928269~exp=1674928869~hmac=04a4eddc33c61fd629418982d0dc833f0df1df4aa67b03bcf16886e5318bb54d" class="img-fluid"class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cofee = ($0.5-$2)</h5>             
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>  
+
+    </div>
+
+  </section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12">
+        <img src="https://media.istockphoto.com/photos/got-a-problem-contact-us-picture-id1129113667?k=20&m=1129113667&s=612x612&w=0&h=-NVtUCwT5PYmfHgHWUTKNkJhyJ_9rnD5m9ryN_ai_X4=" class="img-fluid" >
+      </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <h1>CONTACT US</h1>
+
+          <form>
+            <input type="text" class="form-control" placeholder="Enter your name">
+            <input type="email" class="form-control" placeholder="Enter your mail">
+            <textarea class="form-control" placeholder="Enter your message"></textarea>
+            <button class="btn signin" >Send Message</button>
+          </form>
+
+        </div>
+    </div>
+  </div>
+</section>
+
+<!--FOOTER-->
+
+<footer>
+  Copyrights @ 2023 foodworld.In
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" ></script>
+
+</body>
+</html>
